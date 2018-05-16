@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stardust Events</title>
+<link href='http://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'>
+<link href="common/css/style.css" rel="stylesheet">
+<link href="common/fonts/fonts.css" rel="stylesheet">
+<link href="common/css/responsive.css" rel="stylesheet">
+<!--[if IE 8 ]> <body class="ie8"> <![endif]-->
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+
+<header>
+<div class="wrapper">
+<a href="index.html" class="logo"><img src="common/images/logo.png" alt="" /></a>
+<nav>
+<a href="#" class="togglemenu">MENU</a>
+<ul>
+<li><a href="#">ABOUT</a></li>
+<li><a href="#">GALLERY</a></li>
+<li class="logo_spacer"></li>
+<li><a href="#">PRODUCTS</a></li>
+<li><a href="#">CONTACT</a></li>
+</ul>
+</nav>
+
+</div>
+</header> <!-- header ends -->
+
+<section class="body_container">
+<div class="wrapper">
+
+<h1>festoon lights</h1>
+
+<div class="border_frame">
+<div class="product_slider">
+
+<ul id="ImageSlider">
+<li>
+<img src="common/images/about_banner.jpg" alt="" />
+<span>Cor sum qqui untis aut faccuptat icus ea sae porpossinis</span>
+</li>
+<li>
+<img src="common/images/product_slide2.jpg" alt="" />
+<span>Cor ptat icus ea sae porpossinis untis aut faccuptat </span>
+</li>
+<li>
+<img src="common/images/about_banner.jpg" alt="" />
+<span>Cor sum qqui untis aut faccuptat icus ea sae porpossinis</span>
+</li>
+<li>
+<img src="common/images/product_slide2.jpg" alt="" />
+<span>Cor ptat icus ea sae porpossinis untis aut faccuptat </span>
+</li>
+<li>
+<img src="common/images/about_banner.jpg" alt="" />
+<span>Cor sum qqui untis aut faccuptat icus ea sae porpossinis</span>
+</li>
+<li>
+<img src="common/images/product_slide2.jpg" alt="" />
+<span>Cor ptat icus ea sae porpossinis untis aut faccuptat </span>
+</li>
+</ul>
+
+<a href="#" class="prev slide_nav"><img src="common/images/prev_slide.png" alt="" /></a>
+<a href="#" class="next slide_nav"><img src="common/images/next_slide.png" alt="" /></a>
+<div class="pager"></div>
+
+</div>
+<span class="top_dot"><img src="common/images/dot.jpg" alt=""></span>
+<span class="bottom_dot"><img src="common/images/dot.jpg" alt=""></span>
+</div>
+
+<div class="content">
+<p>Cor sum quam que corem. Delloria et quamet venti cor qui untis aut faccuptat in rentia debisciis ut aut occus ea saepo.Cor sum quam que corem. Delloria et quamet venti cor qui untis aut faccuptat in rentia debisciis ut aut occus ea sae po.</p>
+<p>Cor sum quam que corem. Delloria et quamet venti cor qui untis aut faccuptat in rentia debisciis ut aut occus ea saepo.Cor sum quam que corem. Delloria et quamet venti cor qui untis aut faccuptat in rentia debisciis ut aut occus ea sae po.</p>
+<a href="#" class="view_btn">MAKE AN ENQUIRY</a>
+</div>
+
+
+</div>
+</section> <!-- body conatianer ends -->
+
+
+<footer>
+<div class="wrapper">
+<ul class="social_icons">
+<li><a href="#"><img src="common/images/fb_icon.jpg" alt="" /></a></li>
+<li><a href="#"><img src="common/images/pin_icon.jpg" alt="" /></a></li>
+<li><a href="#"><img src="common/images/instagram_icon.jpg" alt="" /></a></li>
+<li><a href="#"><img src="common/images/main_icon.jpg" alt="" /></a></li>
+</ul>
+
+<p>Copyright Stardust Events 2014 | Designed by <a href="#">The Distillery</a></p>
+
+</div>
+</footer> <!-- footer ends -->
+
+<script type="text/javascript" src="common/js/jquery.js"> </script>  <!-- jquery file -->
+<script type="text/javascript" src="common/js/script.js"> </script>  <!-- menu toogle js -->
+<script type="text/javascript" src="common/js/cycle2.js"> </script> <!-- slider cycle2.js -->
+<script type="text/javascript">
+$(function(){
+  $('#ImageSlider').cycle({
+  fx:'fade',
+  slides:'>li',
+  pager:'.pager',
+  next:'.product_slider .next',
+  prev:'.product_slider .prev',
+  timeout:6000,
+  speed:1000
+  });
+  
+})
+</script>
+
+</body>
+</html>
